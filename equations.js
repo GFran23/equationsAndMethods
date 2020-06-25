@@ -1563,6 +1563,561 @@ let stringToNumber = function(str){
   }
   
   console.log(digitize(348597));
+
+  // Practice 1:
+    // Task 1: Creating an object
+        // Create an object called car
+            // Give it 5 key value pairs including; color, numberOfWheels, and brand.
+
+        // Task 2: Changing Stuff
+        // Using dot notation 
+            // 2a: Change the color
+
+    // Task 3: Adding Stuff
+        // Add numberOfSeats
+        // Add licensePlate
+
+            // let car ={
+            //     brand: "Lamborghini",
+            //     color: "White Smoke",
+            //     numberOfWheels: 4,
+            //     seats: "Leather",
+            //     body: "Carbon Fiber",
+
+            // }
+            // car.color = "Silver Pearl";
+            // car.seats = 3;
+            // car.licensePlate = "GeosLam"
+            // console.log(car);
+
+    
+//Practice 2
+
+    // Task 1:
+        // Create 3 car objects with 3 properties; color, numberOfWheels, and brand. 
+    // Task 2:
+        // Iterate through the cars and do the following tasks
+            // Change the color
+            // Add numberOfSeats
+            // Add licensePlate
+        // (Difficult) Make each one unique
+
+        // let car0 = {
+        //     color: "White",
+        //     brand: "BMW",
+        //     numberOfWheels: 4,
+        // }
+        // let car1 = {
+        //     color: "Black",
+        //     brand: "Honda",
+        //     numberOfWheels: 4,
+        // }
+        // let car2 = {
+        //     color: "Blue",
+        //     brand: "Cadillac",
+        //     numberOfWheels: 4,
+        // }
+        // let cars = [car0, car1, car2];
+        // for (let i = 0; i < cars.length; i++) {
+        //     cars[i];
+        // }
+        // car0.color = "Red", car1.color = "Yellow", car2.color = "Pearl";
+        // car0.seats = 4, car1.seats = 4, car2.seats = 4;
+        // car0.licensePlate = "BackOff", car1.licensePlate = "LookUpp", car2.licensePlate = "SmknDrk"
+        // console.log(cars);
+        
+        
+
+//______________________________________________________________________________________________________________
+
+// Object Loop practice
+// level 0:
+    // create an object (minimum 3 key-value pairs) & create a function which iterates over the object and logs all values to the console.
+    //  let phone = {
+    //      brand: "apple",
+    //      model: "iphone",
+    //      touchScreen: true,
+    //  }
+    //     function cell() {
+    //        for (let item in phone) {
+    //             console.log(phone[item]);
+    //        }
+           
+    //     }
+    //     cell(phone);
+    
+
+
+// level 1: 
+    // create an object (minimum 3 key-value pairs) & create a function which iterates over the object and logs all the key & the value pairs to the console.
+
+    //  let phone1 = {
+    //      brand: "Samsung",
+    //      model: "Galaxy",
+    //      touchScreen: true,
+    //  }
+    //  function obj(param){
+    //      for (let item in param){
+    //          console.log(param[item]);
+    //      }
+    //  }
+    //  obj(phone1);
+          
+     
+            
+     
+     
+     
+    
+    
+// level 2: 
+    // create an object & create a function which logs all string key-value pairs to the console 
+    // let phone2 = {
+    //     brand: "Samsung",
+    //     model: "Galaxy",
+    //     touchScreen: true,
+    //     apps: ["maps", "Weather", "Instagram", "Facebook", "Calender"]
+    // }
+    // function string(param) {
+    //     for (let item in param){
+    //         if(typeof param[item] === 'string'){
+    //           console.log(param[item]);
+    //         }
+          
+    //     }
+    // }
+    // string(phone2);
+    // create an object & create a function which logs all boolean key-value pairs to the console 
+    // let phone4 = {
+    //     brand: "Samsung",
+    //     model: "Galaxy",
+    //     touchScreen: true,
+    //     apps: ["maps", "Weather", "Instagram", "Facebook", "Calender"]
+    // }
+    // function arr(param) {
+    //     for (let item in phone4){
+    //         if(param[item] === true || param[item] === false){
+    //             console.log(item, param[item]);
+    //         }
+           
+    //     }
+    // }
+    // arr(phone4)
+
+    // create an object & create a function which logs all array key-value pairs to the console 
+    // let phone3 = {
+    //     brand: "Samsung",
+    //     model: "Galaxy",
+    //     touchScreen: true,
+    //     apps: ["maps", "Weather", "Instagram", "Facebook", "Calender"]
+    // }
+    // function arr(param) {
+    //     for (let item in phone3 ){
+    //         if(Array.isArray(param[item])){
+    //             console.log(item, param[item]);
+    //         }
+           
+    //     }
+    // }
+    // arr(phone3)
+      
+
+//  level 3: 
+    // given the following object create a function which logs the username & password length.
+    //   let account = {
+    //       username: "Snowman",
+    //       password: "caRR0t"
+    //   }
+    //   function namePass(param){
+        
+    //     for (let item in account){
+            
+    //         console.log(item, param[item].length);
+    //     }
+    // }
+    // namePass(account);      
+          
+      
+      
+
+// given the following object create a function which logs the house address & passcode as stars.
+    // input: ring. Output: "Address: 1600 Pennsylvania Ave NW, Washington, DC 20500. Passcode: ****.""
+    //  let ring = {
+    //      homeAddress: "1600 Pennsylvania Ave NW, Washington, DC 20500",
+    //      passCode: "2020"
+    //  }
+    //  function addressPass(param) {
+    //      let address = param['homeAddress']
+    //      let stars = '';
+
+    //      for (let i = 0; i < param['passCode'].length; i++){
+    //          stars += '*'
+    //      }
+    //      return address + '. passCode: ' + stars;
+    //  }
+    //  console.log(addressPass(ring));
+// level 4: 
+// create an object & create a function which increases the factor of any number by 10 (even if it is a string, or is concatinated with strings)
+
+
+
+
+
+// Eloquent JavaScript Chap: 4. Data Structures: Objects and Arrays.. Ex: 4.1 The sum of a range //
+
+function range (start, end, step = start < end ? 1 : -1) {
+    let array = [];
+
+    if (step > 0) {
+        for (let i = start; i <= end; i += step) array.push(i);
+    } else {
+        for (let i = start; i >= end; i += step) array.push(i);
+    }
+    return array;
+}
+    function sum(array) {
+        let total = 0;
+        for (let value of array) {
+            total += value;
+        }
+        return total; 
+    }
+    console.log(range(1, 10));
+    // → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    console.log(range(5, 2, -1));
+    // → [5, 4, 3, 2]
+    console.log(sum(range(1, 10)));
+    // → 55
+
+    // Reversing an Array using two functions //
+
+    function reverseArray(array) {
+        let output = [];
+        for (let i = array.length - 1; i >= 0; i--) {
+            output.push(array[i]);
+        }
+        return output;
+    }
+
+    function reverseArrayInPlace(array) {
+        for (let i = 0; i < Math.floor(array.length / 2); i++) {
+            let old = array[i];
+            array[i] = array[array.length -1 - i];
+            array[array.length - 1 - i] = old;
+        }
+        return array;
+    }
+    console.log(reverseArray(["A", "B", "C"]));
+    // → ["C", "B", "A"];
+    let arrayValue = [1, 2, 3, 4, 5];
+    reverseArrayInPlace(arrayValue);
+    console.log(arrayValue);
+    // → [5, 4, 3, 2, 1]
+
+    //  A list using Conditional Statements and For Loop //
+    function arrayToList(array) {
+        let list = null;
+        for (let i = array.length - 1; i >= 0; i--) {
+          list = {value: array[i], rest: list};
+        }
+        return list;
+      }
+      
+      function listToArray(list) {
+        let array = [];
+        for (let node = list; node; node = node.rest) {
+          array.push(node.value);
+        }
+        return array;
+      }
+      
+      function prepend(value, list) {
+        return {value, rest: list};
+      }
+      
+      function nth(list, n) {
+        if (!list) return undefined;
+        else if (n == 0) return list.value;
+        else return nth(list.rest, n - 1);
+      }
+      
+      console.log(arrayToList([10, 20]));
+      // → {value: 10, rest: {value: 20, rest: null}}
+      console.log(listToArray(arrayToList([10, 20, 30])));
+      // → [10, 20, 30]
+      console.log(prepend(10, prepend(20, null)));
+      // → {value: 10, rest: {value: 20, rest: null}}
+      console.log(nth(arrayToList([10, 20, 30]), 1));
+      // → 20
+
+//  Deep Comparison using Conditionals and For in Loop  //
+      function deepEqual(a, b) {
+        if (a === b) return true;
+        
+        if (a == null || typeof a != "object" ||
+            b == null || typeof b != "object") return false;
+      
+        let keysA = Object.keys(a), keysB = Object.keys(b);
+      
+        if (keysA.length != keysB.length) return false;
+      
+        for (let key of keysA) {
+          if (!keysB.includes(key) || !deepEqual(a[key], b[key])) return false;
+        }
+      
+        return true;
+      }
+      
+      let obj = {here: {is: "an"}, object: 2};
+      console.log(deepEqual(obj, obj));
+      // → true
+      console.log(deepEqual(obj, {here: 1, object: 2}));
+      // → false
+      console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+      // → true
+
+
+      // given an array filter it to return all words that are 4 characters
+      let arr = ['tree', 'no', 'past', 'hungry'];
+      let only4Letters = arr.filter( ele => ele.length === 4);
+      // console.log(only4Letters);
+  // given an array filter it to return only the objects or arrays
+      let arr1 = [true, false, undefined, null, [1, 2, 3, 4], {name: 'car', wheels:'4'}];
+      let newArr = arr1.filter(ele => typeof ele === 'object');
+      // console.log(newArr);
+  // given an array filter it to return words that only contain one of the following letters a, e, i, o, or u
+      let arr2 = ['hey', 'how', 'are', 'you', 'a', 'by', 1, undefined, null, true]; 
+      let newArr2 = arr2.filter(ele => 
+          (typeof ele !== 'number' &&
+          typeof ele !== 'object' && 
+          typeof ele !== 'undefined' &&
+          typeof ele !== 'boolean')
+          && (ele.indexOf('a') > -1 ||
+          ele.indexOf('e') > -1 ||
+          ele.indexOf('i') > -1 ||
+          ele.indexOf('o') > -1 ||
+          ele.indexOf('u') > -1)
+      );
+
+      // console.log(newArr2);
+
+  // Given the array on the following line. Filter all guests for only the ones over 21. 
+  // Method 1
+  let guests = [
+      {name: 'Vernon', age: 40},
+      {name: 'Petunia', age: 44},
+      {name: 'Harry', age: 11},
+      {name: 'Dudley', age: 12}
+  ];
+
+  let over21 = guests.filter(ele => ele.age >= 21);
+  console.log(over21);
+
+
+  // Method 2
+  let guests2 = [
+      {name: 'Vernon', age: 40},
+      {name: 'Petunia', age: 44},
+      {name: 'Harry', age: 11},
+      {name: 'Dudley', age: 12}
+  ];
+
+  let over21Lists = guests2.filter(obj => {
+           return obj.age >= 21
+       });
+
+       console.log(over21Lists);
+
+
+       // Method 3
+       let guests3 = [
+          {name: 'Vernon', age: 40},
+          {name: 'Petunia', age: 44},
+          {name: 'Harry', age: 11},
+          {name: 'Dudley', age: 12}
+      ];
+
+      let over21Lists2 = guests3.filter(element => { return element.age >= 21});
+               
+           console.log(over21Lists2);
+
+
+  // Reduce: Use reduce for the following questions
+// level 0:
+    // Given an array of numbers, add all of them together
+    let nums = [20, 40, 60, 80, -65];
+    let addNums = nums.reduce((num, total) => num + total );
+    // console.log(addNums);
+// level 1: 
+    // Given an array of numbers, subtract them all from 100
+    let nums2 = [12, 23, 33, 44, 55, 66];
+    let sub100 = nums2.reduce((num, total) => num + total, -100);
+    // console.log(sub100);
+// level 2:
+    // Given an array of numbers, add all the even ones
+    let nums3 = [1,2,3,4,5,6,7,8];
+    // let addEven = nums3.filter(num => (num % 2 === 0)).reduce((n, total) => n + total);
+    let addEven = nums3.reduce((total, n) => { 
+        if(n % 2 === 0){ 
+            return total + n;
+        } else {
+            return total;
+        }
+    }, 0);
+    // console.log(addEven);
+// level 3:
+    // Given an array of strings, reduce all elements to one string
+    let strArr = ["Hello", "my", "name"];
+    let oneString = strArr.reduce((ele, string) => ele + ' ' + string);
+    // console.log(oneString);
+// level 4:
+    // Given an array of test scores(numbers) use reduce to get the average score 
+    let scores = [88, 55, 98, 44, 77, 60, 70];
+    let totalScore = scores.reduce((num, total) => total + num)/scores.length
+    // console.log(totalScore);
+// level 5: 
+    // Given an array of arrays all only containing strings (given below), reduce all elements to one string
+    let arrOfArrOfStr = [[['Peter','Piper']],['Picked','A'],[[[['Pickled', 'Pepper']]]]]
+    // let eleString = arrOfArrOfStr.reduce((finalArr, ele) => finalArr.concat(ele))
+    let count = 0
+    let flatArr = (param) => {
+        count++;
+        console.log(count)
+        for (let i = 0; i < param.length; i++) {
+            let ele = param[i];
+
+            if ( Array.isArray(ele) ){ 
+                param = param.reduce((finalArr, ele) => finalArr.concat(ele));
+
+                return flatArr(param);
+            }
+        }
+        
+        param = param.reduce((finalArr, ele) => finalArr.concat(ele));
+        return param;
+    }
+
+    // console.log(flatArr(arrOfArrOfStr));
+
+    // Filter: Use filter for the following questions
+// level 0:
+    // Given an array of strings remove any that are longer than 4 letters
+    let four = ['smoke', 'drink', 'chill', 'drink', 'kill', 'bill'];
+    let removeFour = four.filter(ele => ele.length <= 4)
+    // console.log(removeFour);
+// level 1: 
+    // Given an array of numbers, remove any that are even
+    let nums4 = [1,2,3,4,5,6,7.7];
+    let oddNums = nums4.filter(ele => ele % 2 === 1 );
+    // console.log(oddNums);
+// level 2:
+    // Given an array of numbers, add all the odd ones
+    let nums5 = [1,2,3,4,5,6,7];
+    let oddNums2 = nums5.filter(num => (num % 2 === 1)).reduce((num, total) => num + total); 
+
+    // console.log(oddNums2);
+
+// // level 3:
+//     // Given an array of people (array given below), add all heights together
+    let people = [
+        {name: 'Sharmania', height: '130cm' },
+        {name: 'Jessica', height: '160cm' },
+        {name: 'Ali', height: '180cm' },
+        {name: 'Hara', height: '170cm' },
+    ]
+
+    let totalHeight = (param) => {
+        let heights = [];
+
+        for (let i = 0; i < param.length; i++) {
+            let element = param[i];
+            heights.push(parseInt(element['height']));
+        }
+
+        return heights.reduce((height, total) => height + total);
+    }
+    console.log(totalHeight(people));
+    
+
+// Create a function that sorts through the array of strings and returns them alphabetically //
+
+let animals3 = ['zebra', 'lion', 'tiger', 'bear', 'dog', 'cat', 'alligator'];
+
+ function alphabetOrder(param) {
+     
+    for(let i = 0; i < param.length; i++) {
+         for (let j = 0; j < param.length; j++) {
+             let element = param[j];
+             let nextEle = param[j+1];
+      
+              if (element > nextEle){
+                  param[j+1] = element
+                  param[j] = nextEle;
+                
+
+            }
+
+        }
+
+    }
+     return param;
+ }
+console.log(alphabetOrder(animals3));
+
+
+
+// higher order function practice
+// Map
+
+// level 0: using .map() do the following
+    // double the values of any array of numbers
+    let doubleValue = [5,10,15,20].map(n => n * 2);
+    //console.log(doubleValue); //output: 10,20,30,40
+
+// level 1: using .map() do the following
+    // grab the first letter of an array of strings
+    let months = ['May', 'June', 'July', 'August'].map(x => x[0]);
+    console.log(months);
+    // grab the first element of an array of arrays
+    let arrays = [['hello', 'world'], ['stop', 'go'], ['hi', 'bye']].map(str => str[0]);
+    //console.log(arrays);
+
+
+// level 2: using .map() do the following
+    // grab the last letter of an array of strings
+    let months2 = ['May', 'June', 'July', 'August'].map(str => str.slice(-1));
+    //console.log(months2);
+    // grab the last letter of an array of arrays
+    let arrays2 = [['lawn', 'ice', 'mice'], ['rice', 'spice', 'sky'], ['newport', 'marlboro']];//.map(str => str.slice(-1));//not done
+    let lastLetter = arrays2.map(ele => ele[ele.length-1].slice(-1));
+    console.log(lastLetter)
+
+// level 3: using .map() do the following
+    // create a new array of fullNames from an array of objects where ONE object looks similar to this:{first: 'Nic', last: 'Leask'};
+    // Input: [{first: 'Ro', last: 'Pili'}, {first: 'Nic', last: 'Leask'}];
+    // Output: ['Ro Pili', 'Nic Leask'];
+    let firstLast = [{first: 'Ro', last: 'Pili'}, {first: 'Nic', last: 'Leask'}];
+    let fullNames = firstLast.map(name => [name.first, name.last].join(' '));
+    //console.log(fullNames);   
+        
+// level 4: using .map() do the following
+    // create a new array of objects from an array of objects where ONE object looks similar to this:{first: 'Nic', last: 'Leask'};
+    // Input:  [{first: 'Ro', last: 'Pili'}, {first: 'Nic', last: 'Leask'}];
+    // Output: [{first: 'Ro', last: 'Pili', fullName: 'Ro Pili', initials: 'RP'}, {first: 'Nic', last: 'Leask', fullName: 'Nic Leask', initials: 'NL'}];
+
+    let firstLast1 = [{first: 'Ro', last: 'Pili'}, {first: 'Nic', last: 'Leask'}];
+    let newObj = firstLast1.map((obj) => {
+        return{
+            first: obj['first'],
+            last: obj['last'],
+            fullName: obj['first'] + ' ' + obj['last'],
+            initials: obj['first'] [0] + obj['last'] [0],
+        };
+    });
+    console.log(newObj)
+
+        
+        
         
         
         
